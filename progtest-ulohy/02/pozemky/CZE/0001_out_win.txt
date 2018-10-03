@@ -1,0 +1,4 @@
+Pozemek #1:
+Pozemek #2:
+Rozloha pozemku #2 (= 6) je vetsi nez rozloha pozemku #1 (= 5).
+Hranice maji stejnou delku: 12

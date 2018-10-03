@@ -1,0 +1,4 @@
+Pozemek #1:
+Pozemek #2:
+Pozemky maji stejnou vymeru: 16.8
+Hranice #1 (= 19.6) je delsi nez hranice #2 (= 18.8).

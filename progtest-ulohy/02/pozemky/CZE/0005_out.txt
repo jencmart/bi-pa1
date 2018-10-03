@@ -1,0 +1,4 @@
+Pozemek #1:
+Pozemek #2:
+Pozemky maji stejnou vymeru: 5e+199
+Hranice maji stejnou delku: 3.41421e+100

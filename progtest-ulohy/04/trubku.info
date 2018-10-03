@@ -1,0 +1,24 @@
+VSTUP:
+1. Delky trubek
+2. Seznam pozadovanych delek potrubi
+
+pozn.: delky trubek / kladna cela cisla / posledni nula (znaci konec) / 1 - 2000 delek trubek
+
+Vystup:
+Delky trubek:
+
+Potrubi:
+
+seznam jak lze vyrbene trubky seskladat
+
+Celke: celkovy pocet moznosti 
+
+---------------------
+Chybne vstupy:
+1. DELKY TRUBEK NEJSOU CELA KLADNA CISLA
+2. JE ZADANO MENE NEZ 1 / VICE NEZ 2000 DELEK TRUBEK
+3. DUPLICITY V DELKACH TRUBEK
+
+4. DELKA POTRUBI NENI ZADANA / JE ZAPORNA / JE NULOVA
+
+

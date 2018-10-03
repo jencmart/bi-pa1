@@ -1,0 +1,45 @@
+	case 0: /*sobota*/
+		if (dnuNavic > 2) /*tzn Po, Ut, St, Ct*/
+			vsednichDnu += dnuNavic - 2;
+		break;
+	case 1: /*nedele*/
+		if(dnuNavic > 1) /*tzn Po, Ut, St, Ct, Pa*/
+			vsednichDnu += dnuNavic -1;
+		break;
+	case 2: /*pondeli*/
+		if(dnuNavic < 6) /*tzn Po, Ut, St, Ct, Pa*/
+			vsednichDnu += dnuNavic;
+		break;
+	case 3: /*utery*/
+		printf("zaciname v utery\n");
+		if(dnuNavic < 5) /*tzn Ut, St, Ct, Pa*/
+			vsednichDnu += dnuNavic;
+		break;
+	case 4: /*streda*/
+		if(dnuNavic < 4) /* St, Ct, Pa*/
+			vsednichDnu += dnuNavic;
+		if(dnuNavic == 4 || dnuNavic == 5) /*So, Ne*/
+			vsednichDnu += 3;
+		if(dnuNavic == 6) /* Po*/
+			vsednichDnu += 4;
+		break;
+	case 5: /*ctvrtek*/printf("ctvertek\n");
+		if (dnuNavic < 3) /*tzn Ct, Pa*/{
+			vsednichDnu += dnuNavic;
+			printf("dnu navic%d\n", dnuNavic);
+		}
+		if(dnuNavic == 3 || dnuNavic == 4){ /*So, Ne*/
+			vsednichDnu += 2;
+				printf("dnu navic%d\n", dnuNavic);
+}
+		if (dnuNavic > 4) /*Po, Ut*/
+			vsednichDnu += dnuNavic - 2;
+		break;
+
+	case 6: /*patek*/
+		if (dnuNavic <=3 ) /* Pa, So, Ne*/
+			vsednichDnu += 1;
+		if (dnuNavic > 3) /* Po, Ut, St*/
+			vsednichDnu += dnuNavic - 2;
+		break;
+

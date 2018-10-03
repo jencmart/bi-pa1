@@ -1,0 +1,4 @@
+Pozemek #1:
+Pozemek #2:
+Rozloha pozemku #2 (= 200) je vetsi nez rozloha pozemku #1 (= 126).
+Hranice #2 (= 60) je delsi nez hranice #1 (= 44).

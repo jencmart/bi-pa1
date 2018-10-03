@@ -1,0 +1,16 @@
+OK
+OK
+OK
+OK
+0 test
+00 test
+000 test
+0000 test
+Celkem: 4
+00 test
+000 test
+0000 test
+Celkem: 3
+000 test
+0000 test
+Celkem: 2
